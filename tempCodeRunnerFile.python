@@ -1,0 +1,11 @@
+def fun_class():
+    str=eval(input("Enter the string u want to perform: "))
+    length=len(str)
+    print("the length of entered input is: ",length)
+    loc=id(str)
+    if(loc%2==0):
+        print(loc,"Even location")
+    else:
+        print("odd location")
+
+fun_class()
